@@ -1,6 +1,5 @@
 function truePalindrome(string) {
-    const stringLen = string.length,
-      stringReverse = string.split("").reverse().join("");
+    const stringReverse = string.split("").reverse().join("");
     if (stringReverse === string) {
       return "Cлово является палиндромом";
     } else {
@@ -20,7 +19,7 @@ const uniqueArr = Array.from(uniqueSet);
 
 
 const number = prompt('Введите любое число:');
-let newNum = [];
+const newNum = [];
 for (let i = 0; i <= number; i += 1) {
     newNum.push(i);
 }
